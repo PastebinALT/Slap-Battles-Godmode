@@ -1,0 +1,14 @@
+--BROUGHT TO YOU BY RSCRIPTS.NET!--
+
+-- Slap Battles | Godmode
+-- Made by Konatoku
+
+-- Tip: If you die, you need again execute script
+
+Player = game.Players.LocalPlayer.Character.Name
+
+workspace[Player].isInArena:Destroy()
+wait()
+workspace[Player].IsInDefaultArena:Destroy()
+wait()
+workspace[Player].Ragdolled:Destroy()
